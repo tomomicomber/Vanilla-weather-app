@@ -35,8 +35,8 @@ function displayTemperature(response) {
   let dateElement = document.querySelector("#date");
   dateElement.innerHTML = formatDate(response.data.time * 1000);
 }
-
+let city = `Lisbon`;
 let apiKey = "tb10aca90160486ob189bccfd349ef18";
-let url = `https://api.shecodes.io/weather/v1/current?query=lisbon&key=${apiKey}`;
+let url = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
 console.log(url);
 axios.get(url).then(displayTemperature);
