@@ -1,1 +1,26 @@
+.weather-app {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #f9f7fe;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 38px;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #a9a6b3;
+}
+small {
+  color: #a9a6b3;
+}
+.humidity {
+  color: #f65292;
+}
 
+.wind {
+  color: #f65292;
+}
