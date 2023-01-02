@@ -16,6 +16,7 @@
   </head>
   <body>
     <div class="container">
+            <div class="weather-app-wrapper">
       <div class="weather-app">
         <div class="row">
           <div class="col-8">
@@ -24,22 +25,19 @@
             <li>Humidity: <span class="humidity">59%</span>, Wind: <span class="wind">5.14km/h<span></li>
           </div>
           <div class="col-4">
-            <li>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                alt="cloudy"
-              />
-              27°C
-            </li>
+            <span class="icon">
+              <i class="fa-solid fa-cloud"></i></span>
+             <span class="temp">27</span><span class="celsius">°C</span> 
+            
           </div>
         </div>
-        <small
+       
+      </div> <small
           ><a href="https://github.com/tomomicomber/Vanilla-weather-app"
             >Open-source code</a
           >
           by Tomomi Comber</small
-        >
-      </div>
+        ></div>
     </div>
     <script src="src/app.js"></script>
   </body>

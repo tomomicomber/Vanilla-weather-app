@@ -1,12 +1,14 @@
 .weather-app {
-  max-width: 700px;
-  margin: 30px auto;
   padding: 20px;
   border: 1px solid #f9f7fe;
   border-radius: 5px;
 }
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
 h1 {
-  font-size: 38px;
+  font-size: 36px;
 }
 li {
   list-style: none;
@@ -23,4 +25,19 @@ small {
 
 .wind {
   color: #f65292;
+}
+.icon {
+  font-size: 30px;
+  position: relative;
+  top: -8px;
+}
+.temp {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.celsius {
+  font-size: 20px;
+  position: relative;
+  top: -20px;
 }
