@@ -31,7 +31,7 @@ small {
   position: relative;
   top: -8px;
 }
-.temp {
+#temp {
   font-size: 50px;
   font-weight: 500;
 }

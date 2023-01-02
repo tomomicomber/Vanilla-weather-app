@@ -10,6 +10,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://kit.fontawesome.com/a2a5d7f973.js" crossorigin="anonymous"></script>
     <title>Weather app</title>
@@ -20,14 +21,14 @@
       <div class="weather-app">
         <div class="row">
           <div class="col-8">
-            <h1>Brisbane, Australia</h1>
-            <li>Monday 10:27, Sunny</li>
-            <li>Humidity: <span class="humidity">59%</span>, Wind: <span class="wind">5.14km/h<span></li>
+            <h1 id="city"></h1>
+            <li>Monday 10:27, <span id="description"></span></li>
+            <li>Humidity: <span class="humidity"><span id="humidity">59</span>%</span>, Wind: <span class="wind"><span id="wind"></span>km/h<span></li>
           </div>
           <div class="col-4">
-            <span class="icon">
+            <span class="icon" id="icon">
               <i class="fa-solid fa-cloud"></i></span>
-             <span class="temp">27</span><span class="celsius">°C</span> 
+             <span id="temp">27</span><span class="celsius">°C</span> 
             
           </div>
         </div>
