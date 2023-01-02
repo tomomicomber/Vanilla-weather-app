@@ -27,17 +27,17 @@ small {
   color: #f65292;
 }
 .icon {
-  font-size: 30px;
+  font-size: 15px;
   position: relative;
   top: -8px;
 }
 #temp {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
 }
 
 .celsius {
   font-size: 20px;
   position: relative;
-  top: -20px;
+  top: -15px;
 }
