@@ -6,8 +6,7 @@ body {
   padding: 40px;
   border: 1px solid #f9f7fe;
   border-radius: 5px;
-  font-family: "Arimo", sans-serif;
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Mada", sans-serif;
   background-color: white;
 }
 
@@ -36,7 +35,7 @@ small {
 }
 .icon {
   position: relative;
-  top: -18px;
+  top: -12px;
 }
 #temp {
   font-size: 50px;
