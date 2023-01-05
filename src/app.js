@@ -44,12 +44,12 @@ function displayForecast(response) {
   
   <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${
     forecastDay.condition.icon
-  }.png"  width="42" /> 
+  }.png"  width="45" /> 
   <span class="weather-forecast-max">${Math.round(
     forecastDay.temperature.maximum
   )}°</span> <span class="weather-forecast-min">${Math.round(
           forecastDay.temperature.minimum
-        )}°</span></div>
+        )}°</span>
 </div>`;
     }
   });
